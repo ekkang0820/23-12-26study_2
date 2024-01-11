@@ -9,7 +9,8 @@ for x in range(len(strInput)):
     if flag > 0:
         flag = flag - 1
         continue
-    if x < (len(strInput) - 1) and (strInput[x] == 'c' or strInput[x] == 'd' or strInput[x] == 'l' or strInput[x] == 'n' or strInput[x] == 's' or strInput[x] == 'z'):
+    if x < (len(strInput) - 1) and (strInput[x] == 'c' or strInput[x] == 'd' or strInput[x] == 'l' or
+                                    strInput[x] == 'n' or strInput[x] == 's' or strInput[x] == 'z'):
         temp = strInput[x]
         if x < (len(strInput) - 1):
             temp = temp + strInput[x+1]
@@ -26,3 +27,4 @@ for x in range(len(strInput)):
         count = count + 1
 
 print(count)
+

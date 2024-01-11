@@ -24,5 +24,5 @@ for i in range(0,num_in):
                     break
             tempstr = tempstr + strlist[i][j]
 
-print(tempstr)
+#print(tempstr)
 print(result)
